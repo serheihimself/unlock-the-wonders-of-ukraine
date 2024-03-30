@@ -140,4 +140,13 @@ button {
 
 .about_wrapper p {
   width: 496px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 32px;
 }/*# sourceMappingURL=main.css.map */
