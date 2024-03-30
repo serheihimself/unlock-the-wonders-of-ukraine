@@ -1,5 +1,8 @@
+.header {
+  position: absolute;
+  z-index: 100;
+}
 .header_navigation {
-  background-color: yellowgreen;
   display: flex;
   justify-content: space-between;
   align-items: center;
