@@ -1,5 +1,7 @@
 body {
   font-family: "Jomolhari", serif;
+  background-color: #141a19;
+  color: #fff;
   font-size: 16px;
 }
 .container {
@@ -9,6 +11,11 @@ body {
 }
 .section {
   padding-top: 100px;
+}
+.section_title {
+  font-size: 64px;
+  margin-bottom: 64px;
+  text-align: center;
 }
 h1,
 h2,

@@ -1,6 +1,7 @@
-@charset "UTF-8";
 body {
   font-family: "Jomolhari", serif;
+  background-color: #141a19;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -12,6 +13,12 @@ body {
 
 .section {
   padding-top: 100px;
+}
+
+.section_title {
+  font-size: 64px;
+  margin-bottom: 64px;
+  text-align: center;
 }
 
 h1,
@@ -89,14 +96,14 @@ button {
 }
 
 .main_word::after {
-  content: "Ukraine"; /* Замените на ваш текст */
+  content: "Ukraine";
   position: absolute;
   bottom: 20;
   left: 0;
   color: white;
   opacity: 0.3;
   transform: scaleY(-1);
-  text-shadow: 2px 2px 4px rgba(0, 4, 4, 0.25); /* Тень для зеркального текста */
+  text-shadow: 2px 2px 4px rgba(0, 4, 4, 0.25);
 }
 
 .main_btn {
@@ -115,4 +122,22 @@ button {
   flex-direction: column;
   align-items: end;
   gap: 15px;
+}
+
+.about_container {
+  width: 1024px;
+  height: 573px;
+  margin: auto;
+  background-image: url("../../images/about.png");
+  padding-top: 70px;
+}
+
+.about_wrapper {
+  display: flex;
+  gap: 32px;
+  line-height: 1.4;
+}
+
+.about_wrapper p {
+  width: 496px;
 }/*# sourceMappingURL=main.css.map */
