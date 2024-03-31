@@ -69,13 +69,19 @@
 }
 .swiper-wrapper {
   display: flex;
-  gap: 32px;
+}
+.swipper-description-wrapper {
+  margin-top: 106px;
 }
 .swipper-btn-wrapper {
   position: absolute;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  bottom: 0;
+  bottom: 20%;
   z-index: 100;
+}
+.button-prev,
+.button-next {
+  background-color: transparent;
 }
